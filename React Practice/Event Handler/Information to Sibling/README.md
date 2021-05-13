@@ -1,0 +1,2 @@
+In this folder, each component has a certain function. The Sibiling component is just displaying the information that is selected from the Child Component options.
+The Parent component hosts the constructor function which holes the state and binds the function
