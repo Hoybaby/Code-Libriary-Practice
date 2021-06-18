@@ -8,6 +8,7 @@ export default function ColorPicker() {
 
     const divStyle = { backgroundColor: color };
 
+    // In order for the onClick to work, it needs to be set up like this unlike common javascript. Just like styling, we have to inject the function inside the JSX.
     return (
         <div style={divStyle}>
             <p>The color is {color}</p>
@@ -26,3 +27,5 @@ export default function ColorPicker() {
         </div>
     );
 }
+
+
