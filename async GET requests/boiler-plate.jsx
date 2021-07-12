@@ -14,3 +14,11 @@ const getData = async () => {
         console.log(error)
     }
 }
+
+// another way ti simply use fetch to get data from api
+let users = [];
+fetch(`https://randomuser.me/api/?results=10`)
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data.results);
+  });
